@@ -1,6 +1,12 @@
 # Website-template-1
 This is a little website I once made for uni. You can use it as a template for your own projects :)
 
+> **Note** <br>
+>This website was purely designed and made **ONLY** for a 1920x1080px screen as these were one of the requirements back then. <br>
+>It will not work on any other screen size and lots of rewriting is going to be necessary. 
+>If you still wish to take a look at it, just zoom out or in to adjust to your screen size and pixel density.
+>Take this webite more as type of inspiration then an actual template.  
+
 &nbsp;
 
 ## How to use
