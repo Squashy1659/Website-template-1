@@ -1,0 +1,108 @@
+:root{
+    --backgroundColor: #1d2328;
+    --navBarBorderColor: rgba(255, 255, 255, 0.1);
+    --hervorherbung: rgb(23, 161, 207) ;
+    color-scheme: dark;
+    --text-shadow: rgb(9, 255, 0);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: pantonLightCaps;
+    src: url(Fonts/Panton/PantonLightCaps.otf) format(opentype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: nunitoLight;
+    src: url(Fonts/Nunito/Nunito-Light.ttf) format(truetype);
+    font-weight: normal;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    font-family: nunitoLight, sans-serif; 
+
+}
+/*Nav-Bar sektion -----------------------------------------------*/
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid var(--navBarBorderColor);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--backgroundColor);
+
+}
+
+nav > .navbar{
+    padding: 0 0rem;
+    display: flex;
+    border-left: 2px solid var(--navBarBorderColor);
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_teil{
+    justify-content: flex-start;
+    font-size: 170%;
+    font-weight: 700;
+    flex-basis: calc(60%/3);
+    padding-left: 2%;
+}
+
+#links_teil
+{
+    gap: 3rem;
+    flex-basis: calc(140% / 3);
+    font-size: 130%;
+}
+
+#social_teil{
+    gap: 3rem;
+    flex-grow: 1;
+    font-size: 130%;
+}
+
+#title{
+    cursor: pointer;
+}
+
+#impressum_teil{
+    flex-grow: 1;
+    font-size: 130%;
+}
+
+h1, h2, h3, i, h4, a, p, span{
+    font-family: nunitoLight, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hervorhebung{
+    color: var(--hervorherbung);
+}

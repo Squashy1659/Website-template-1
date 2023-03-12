@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    background: var(--backgroundColor);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    top: 100px;
+}
+
+section {
+    flex: 0 0 auto;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 150px 1fr;
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid var(--navBarBorderColor);
+    border-right: 1px solid var(--navBarBorderColor);
+}
+
+.content{
+    padding: 30px;
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    font-size: 200%;
+    width: 100%;
+}
+
+.content_header{
+    padding: 30px;
+    display: grid;
+    align-content: end;
+    justify-content: start;
+    font-size: 250%;
+}
+
+/* scroll bar hoffentlich verstecken, klappt ja eh nur in bestimmten Browserversionen :| */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#fanpage_01_us{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    left: 0;
+    top: 200px;
+    font-size: 250px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fanpage_02_us{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    left: 0;
+    top: 470px;
+    font-size: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fanpage_03_us{
+    padding-right: 60px;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    left: 0;
+    top: 700px;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+img{
+    border-radius: 10px;
+}

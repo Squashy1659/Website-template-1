@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.Doku_Überschrift{
+    position: relative;
+    z-index: 2;
+    top: -900px;
+    text-align: center;
+    font-size: 170px;
+}
+
+.Doku_Überschrift1{
+    position: relative;
+    z-index: 2;
+    top: -1300px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.Doku_Überschrift2{
+    position: relative;
+    z-index: 2;
+    top: -1100px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.übersichtsstreifen{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: inherit;
+    align-items: center;
+    background-color: #000000b5;
+    position: relative;
+    z-index: 3;
+    top: -940px;
+    text-align: center;
+    font-size: 130%;
+}
+
+#brdr{
+    height: 75%;
+    padding: 20px;
+    display: grid;
+    border-right: 2px solid rgb(183, 140, 0);
+    align-items: center;
+}
+
+.bildershuffle{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 700px;
+    position: absolute;
+    top: 1100px;
+    padding: 60px;
+}
+
+#bilderstapelei_text{
+    display: grid;
+    place-content: start;
+    padding: 4rem;
+    font-size: 200%;
+}
+
+.text_doku{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 200px 600px;
+    padding: 60px;
+    position: relative;
+    bottom: 200px;
+    font-size: 180%;
+}
+
+.text_doku_e{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 200px 600px;
+    padding: 60px;
+    position: relative;
+    bottom: 200px;
+    font-size: 180%;
+}
+
+.text_doku_ef{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 200px 400px;
+    padding: 60px;
+    position: relative;
+    bottom: 200px;
+    font-size: 180%;
+}
+
+
+#ueberschrift_doku{
+    display: grid;
+    width: 100%;
+    grid-column: 1 / -1;
+    align-content: center;
+    justify-content: center;
+    border-top: 2px solid var(--navBarBorderColor);
+    border-bottom: 2px solid var(--navBarBorderColor);
+    font-size: 200%;
+}
+
+img{
+    border-radius: 65px;
+}

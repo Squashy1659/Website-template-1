@@ -1,0 +1,90 @@
+/*--------------Bild Positionierung-----------------------------------------------------------------------------*/
+
+
+.it_bild{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+}
+
+.überschriften_it{
+    text-shadow: var(--text-shadow) 0 0 10px;
+}
+
+.IT_Überschrift{
+    position: relative;
+    z-index: 2;
+    top: -1250px;
+    text-align: center;
+    font-size: 200px;
+}
+
+.IT_Überschrift1{
+    position: relative;
+    z-index: 2;
+    top: -1700px;
+    font-size: 250%;
+    text-align: center;
+}
+
+.IT_Überschrift2{
+    position: relative;
+    z-index: 2;
+    top: -1500px;
+    font-size: 250%;
+    text-align: center;
+}
+
+.IT_Überschrift3{
+    position: relative;
+    z-index: 2;
+    top: -1470px;
+    font-size: 250%;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+main > article{
+    position: absolute;
+    z-index: 3;
+    top: 1340px;
+    display: grid;
+    width: 100%;
+    height: 1vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px repeat(5, 700px) 150px repeat(4, 700px);
+} 
+
+#it1{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 200%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#it12{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 200%;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 2px solid var(--navBarBorderColor);
+}
+
+#it2, #it3, #it4, #it5, #it6, #it7, #it8, #it9, #it10, #it11, #it13, #it14, #it15, #it16{
+    display: flex ;
+    flex-direction: column;
+    position: relative;
+    font-size: 200%;
+    z-index: 3;
+    padding: 60px;
+    border-bottom: 2px solid var(--navBarBorderColor);
+    align-content: flex-end;
+}
+
+img{
+    border-radius: 10px;
+}

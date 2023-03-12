@@ -1,0 +1,155 @@
+/*------------Blenderbar-(Jump to Showcase und so)---------------------------------*/
+
+.blenderbar{
+    
+    font-size: 180%;
+    position: absolute;
+    z-index: 5;
+    top: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 2rem;
+    
+    
+}
+
+
+/*-----------------Bild positionieren--------------------------------------------------------------------*/
+
+.blenderImage{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+}
+
+.blenderÜberschrift{
+    position: relative;
+    z-index: 2;
+    top: -1200px;
+    font-size: 200px;
+    text-align: center;
+}
+
+.blenderÜberschrift1{
+    position: relative;
+    z-index: 2;
+    top: -1650px;
+    font-size: 250%;
+    text-align: center
+}
+
+.blenderÜberschrift2{
+    position: relative;
+    z-index: 2;
+    top: -1450px;
+    font-size: 250%;
+    text-align: center
+}
+
+.blenderÜberschrift3{
+    position: relative;
+    z-index: 2;
+    top: -1430px;
+    font-size: 250%;
+    text-align: center
+}
+
+main{
+    position: static;
+    flex-grow: 1;
+    width: 100vw;
+}
+
+main > article{
+    width:100vw;
+    position: absolute;
+    z-index: 3;
+    top: 1340px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 700px) 100px repeat(3, 700px);
+}    
+
+div{
+    margin: 0;
+}
+
+/*----------------Blender Content-----------------------------------*/
+
+#blender1, #blender3, #blender5,  #blender9, #blender11, #blender13{
+    position: relative;
+    z-index: 3;
+    border-bottom: 2px solid var(--navBarBorderColor);
+    padding: 60px;
+    font-size: 250%;
+}    
+
+#blender2, #blender4, #blender6, #blender10, #blender12{
+    position: relative;
+    z-index: 3;
+    border-bottom: 2px solid var(--navBarBorderColor);
+    padding: 60px;
+    font-size: 250%;
+}
+
+#blender7{
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+    position: relative;
+    z-index: 3;
+    border-bottom: 2px solid var(--navBarBorderColor);
+    padding: 60px;
+    font-size: 250%;
+    text-align: center;
+}
+
+#blender8{
+    display: flex;
+    flex-direction: row;
+    width:100vw;
+    grid-column: 1 / -1;
+    grid-row: 5 /6;
+    position: relative;
+    z-index: 3;
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+}
+
+#blender13{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    grid-column: 1 / -1;
+    grid-row: 8 / 9;
+    position: relative;
+    z-index: 3;
+    font-size: 200%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#download{
+    position: absolute;
+    z-index: 3;
+    font-size: 150%;
+    top: 6280px;
+    left: 1745px;
+}
+
+#showcase{
+    position: absolute;
+    z-index: 3;
+    top: 1250px;
+}
+
+img{
+    border-radius: 10px;
+}
