@@ -6,21 +6,28 @@ This is a little website I once made for uni. You can use it as a template for y
 ## How to use
 
 <details> 
-<summary>Option 1</summary>
-&nbsp;
-<p>Just git clone this enire reposetory into your working folder.</p>
+<summary>😎Option 1</summary>
+<br>
+Just git clone this enire reposetory into your working folder.
+<br>
+<br>
 
 ```
 git clone https://github.com/Squashy1659/Website-template-1.git
 ```
-&nbsp;
-<p>You ABSOLUTELY NEED to make your own changes. This website is everthing but polished or well made. However, if it's your first year it will (hopefully) get the job done.</p>
+
+<br>
+
+You **ABSOLUTELY NEED** to make your own changes. This website is everthing but polished or well made. However, if it's your first year it will (hopefully) get the job done.
 </details>
 <details> 
-<summary>Option 2</summary>
+<summary>🦆Option 2</summary>
 <br>
-1. Download all files as a .ZIP file.<br>
+
+1. Download all files as a .ZIP file by going to "Code" ➡️ "Download as ZIP". <br>
 2. Unzip all the files into your working directory.<br>
-3. You ABSOLUTELY NEED to make your own changes. This website is everthing but polished or well made. However, if it's your first year it will (hopefully) get the job done. So just do it.<br>
+3. You **ABSOLUTELY NEED** to make your own changes. This website is everthing but polished or well made. However, if it's your first year it will (hopefully) get the job done. So just do it.<br>
+
 </details>
+
 <hr>
